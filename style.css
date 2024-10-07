@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  background-color: #29292E;
+}
+
+#page{
+  background-color: #F5F4F0;
+  width: 1280px;
+  margin: 80px auto;
+  padding: 155px 80px 70px 80px;
+}
+
+#page h1{
+  font-size: 36px;
+}
+
+#page img{
+  margin-top: 44px;
+  margin-bottom: 24px;
+  border-radius: 28px;
+}
+
+#page .subtitle{
+  text-align: center;
+  color: #333333;
+  border-bottom: #D9D9D9;
+}
+
+.line{
+  border: solid .5px #D9D9D9;
+  margin-top: 40px;
+}
+
+.destino-um{
+  padding-top: 64px;
+}
+
+.destino-um h2{
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.destino-um h3, .destino-dois h3, .destino-tres h3{
+  font-size: 28px;
+}
+
+.destino-um p, .destino-dois p, .destino-tres p{
+  margin-top: 4px;
+  margin-bottom: 30px;
+}
+
+.descricao{
+  font-weight: bold;
+}
+
+ul{
+  padding-left: 20px;
+}
+
+li a{
+  color: #0C51A7;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.paragrafo{
+  color: #E1624F;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+p{
+  color: #333333;
+}
+
+section img{
+  margin-top: 64px;
+  margin-bottom: 20px;
+}
+
+.purple{
+  color: #591B98;
+  font-weight: bold;
+}
+
+.pink{
+  color: #E5245E;
+  font-weight: bold;
+}
+
+.orange{
+  color: #E95E10;
+  font-weight: bold;
+}
+
+.footer{
+  text-align: center;
+}
+
+.rodape{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  height: 20px;
+  color: #333333;
+}
+
+.rodape img{
+  position: relative;
+  top: -10px;
+}
